@@ -4,14 +4,14 @@
 
 #define TG_NKRO MAGIC_TOGGLE_NKRO //Toggle 6KRO / NKRO mode
 
-#define MODS_SHIFT  (get_mods() & MOD_MASK_SHIFT)
+#define MODS_SHIFT (get_mods() & MOD_MASK_SHIFT)
 #define MODS_CTRL  (get_mods() & MOD_MASK_CTRL)
-#define MODS_ALT  (get_mods() & MOD_MASK_ALT)
+#define MODS_ALT   (get_mods() & MOD_MASK_ALT)
 
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM 250
 
-#define TAP_HOLD_CAPS_DELAY 0
+#define TAP_HOLD_CAPS_DELAY 200
 
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 
